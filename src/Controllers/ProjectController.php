@@ -20,11 +20,27 @@ class ProjectController
     }
     public function store()
     {
+        $project = Project::create([
+            'title' => $_POST['title'] ?? null,
+            'category_id' => $_POST['category_id'] ?? null,
+            'description' => $_POST['description'] ?? null,
+            'date' => $_POST['date'] ?? null,
+        ]);
 
         $images = File::cleanUpload($_FILES['images']);
-        foreach ($images as $image) {
-            file_put_contents($_SERVER['DOCUMENT_ROOT'].'/images/'.$image['name'], file_get_contents($image['tmp_name']));
 
+        foreach ($images as $image) {
+
+            // check si il y a un ficher ou non
+            if (!empty($image['name'])&& $image['tmp_name']) {
+                $path = '/images/' . $image['name'];
+                file_put_contents($_SERVER['DOCUMENT_ROOT'] . $path, file_get_contents($image['tmp_name']));
+                Image::create([
+                    'path'=>$path,
+                    'name'=>$image['name'],
+                    'project_id'=>$project->id,
+                ]);
+            }
         }
 
         /*
@@ -32,13 +48,6 @@ class ProjectController
             'name' => $images['name'] ?? null,
         ]);
         */
-
-        Project::create([
-            'title' => $_POST['title'] ?? null,
-            'category_id' => $_POST['category_id'] ?? null,
-            'description' => $_POST['description'] ?? null,
-            'date' => $_POST['date'] ?? null,
-        ]);
 
         Redirect::to('/project/index', [
             'success' => 'Projet créé !',
@@ -49,7 +58,11 @@ class ProjectController
     }
     public function index()
     {
-        //todo récupérer les projets en base de donnée et les envoyer à la vue
-        view::render('project.index');
+        $projects = Project::all();
+        View::render('project.index', ['projects' => $projects]);
+
+    }
+    public function edit($id){
+
     }
 }

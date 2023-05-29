@@ -76,14 +76,16 @@ class Model
 
         $stmt = $pdo->prepare($sql);
         $stmt->execute($values);
+        $id = $pdo->lastInsertId();
+        return static::find($id);
     }
 
     public static function all()
     {
         $pdo = DB::getInstance();
-        $query = 'select * from '.static::$table;
+        $query = 'select * from '.static::$table.' ORDER BY date';
         $statement = $pdo->query($query);
-        $statement->setFetchMode(PDO::FETCH_CLASS, User::class);
+        $statement->setFetchMode(PDO::FETCH_CLASS, static::class);
         return $statement->fetchAll();
     }
 
