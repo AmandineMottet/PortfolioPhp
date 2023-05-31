@@ -88,5 +88,26 @@ class Model
         $statement->setFetchMode(PDO::FETCH_CLASS, static::class);
         return $statement->fetchAll();
     }
+    public static function update(int $id, array $params)
+    {
+        $pdo = DB::getInstance();
+        $columns = '';
+        $values = [];
+        $i = 1;
+        foreach ($params as $column => $value){
+            if($i < count($params)) {
+                $columns .= "$column=?,";
+            }else {
+                $columns .= "$column=?";
+            }
+            $values[] = $value;
+            $i++;
+        }
+        $sql = 'UPDATE ' .static::$table. ' SET '.$columns.' WHERE id=?';
+        $values[] = $id;
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute($values);
+    }
 
 }
+
