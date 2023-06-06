@@ -1,5 +1,3 @@
-
-
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -20,7 +18,8 @@
                 <label for="category_id" class="form-label">Catégorie</label>
                 <select class="form-select" name="category_id">
                     <?php foreach ($categories as $category): ?>
-                        <option <?php if($project->category_id === $category['id']) echo 'selected'?> value="<?= $category['id']?> "><?= $category['label']?></option>
+                        <option <?= $project->category_id === $category['id'] ? 'selected' : null ?>
+                            value="<?= $category['id'] ?> "><?= $category['label'] ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>
@@ -32,10 +31,22 @@
                     <input type="file" class="form-control" id="formFileMultiple" name="images[]" multiple>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 text-end">
-                    <button type="submit" class="btn btn-success btn-sm">Enregistrer</button>
+        </div>
+        <div class="row">
+            <?php foreach ($project->images() as $image): ?>
+                <div class="col-2">
+                    <div class="img-wrapper">
+                        <a href="/image/<?= $image->id ?>/delete" class="btn btn-sm btn-danger btn-image">
+                            <i class="fa fa-times"></i>
+                        </a>
+                        <img src="<?= $image->path ?>" alt="<?= $image->name ?>" class="img-fluid">
+                    </div>
                 </div>
+            <?php endforeach; ?>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-end">
+                <button type="submit" class="btn btn-success btn-sm">Enregistrer</button>
             </div>
         </div>
     </form>

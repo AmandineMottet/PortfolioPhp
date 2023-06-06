@@ -109,5 +109,15 @@ class Model
         $stmt->execute($values);
     }
 
+    public static function delete(int $id)
+    {
+        $pdo = DB::getInstance();
+        $query = 'DELETE from '.static::$table.' where id =?';
+
+        $stmt = $pdo->prepare($query);
+        $stmt->execute([$id]);
+        //$statement->setFetchMode(PDO::FETCH_CLASS, static::class, ['id' => $id]);
+        return true;
+    }
 }
 

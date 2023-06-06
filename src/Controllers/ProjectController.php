@@ -28,34 +28,11 @@ class ProjectController
             'date' => $_POST['date'] ?? null,
         ]);
 
-        $images = File::cleanUpload($_FILES['images']);
-
-        foreach ($images as $image) {
-
-            // check si il y a un ficher ou non
-            if (!empty($image['name']) && $image['tmp_name']) {
-                $path = '/images/' . $image['name'];
-                file_put_contents($_SERVER['DOCUMENT_ROOT'] . $path, file_get_contents($image['tmp_name']));
-                Image::create([
-                    'path' => $path,
-                    'name' => $image['name'],
-                    'project_id' => $project->id,
-                ]);
-            }
-        }
-
-        /*
-        Image::create([
-            'name' => $images['name'] ?? null,
-        ]);
-        */
+        $this->handleImages($project);
 
         Redirect::to('/project/index', [
             'success' => 'Projet créé !',
-            'error' => '',
         ]);
-
-
     }
 
     public function index()
@@ -75,9 +52,42 @@ class ProjectController
         ]);
     }
 
+    private function handleImages(Project $project)
+    {
+        $images = File::cleanUpload($_FILES['images']);
+
+        foreach ($images as $image) {
+
+            // check si il y a un ficher ou non
+            if (!empty($image['name']) && $image['tmp_name']) {
+                $path =  '/images/' . $project->id.'/'. $image['name'];
+                if(!file_exists($_SERVER['DOCUMENT_ROOT'] .'/images/' . $project->id.'/')) {
+                    mkdir($_SERVER['DOCUMENT_ROOT'] . '/images/' . $project->id . '/', 0777, true);
+                }
+
+                file_put_contents($_SERVER['DOCUMENT_ROOT'] . $path, file_get_contents($image['tmp_name']));
+                Image::create([
+                    'path' => $path,
+                    'name' => $image['name'],
+                    'project_id' => $project->id,
+                ]);
+            }
+        }
+    }
+
 
     public function update($id)
     {
+        if(empty($_POST['category_id']) || $_POST['category_id'] === 'Veuillez sélectionner une catégorie'){
+            Redirect::to('/project/'.$id.'/edit', [
+                'error' => 'Veuillez sélectionner une catégorie',
+                'old' => $_POST
+            ]);
+        }
+        $project = Project::find($id);
+        $this->handleImages($project);
+
+
         Project::update($id, [
             'title' => $_POST['title'] ?? null,
             'category_id' => $_POST['category_id'] ?? null,
@@ -87,7 +97,20 @@ class ProjectController
 
         Redirect::to('/project/index', [
             'success' => 'Projet mis à jour !',
-            'error' => '',
+        ]);
+    }
+
+    public function delete($id)
+    {
+        $prject = Project::find($id);
+        $projectId = $projectId->project_id;
+        if(file_exists($_SERVER['DOCUMENT_ROOT'] . $image->path)){
+            unlink($_SERVER['DOCUMENT_ROOT'] . $image->path);
+        }
+        Image::delete($id);
+
+        Redirect::to('/project/'.$projectId.'/edit',[
+            'success' => 'Image supprimée avec succes !'
         ]);
     }
 }

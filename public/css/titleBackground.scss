@@ -5,3 +5,23 @@
   border-bottom-right-radius: 60px;
   border-top-right-radius: 60px;
 }
+
+
+.titleBackgroundBlueBigger{
+  background-color: #a5bfb5!important;
+  min-height: 200px;
+  width: 700px;
+  border-bottom-right-radius: 60px;
+  border-top-right-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+
+
+.titleBackgroundText{
+  font-size: 30px;
+  color:white;
+
+}

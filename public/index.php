@@ -3,6 +3,7 @@
 session_start();
 
 use App\Controllers\BaseController;
+use App\Controllers\ImageController;
 use App\Controllers\ProjectController;
 use App\Controllers\UserController;
 use App\Controllers\HomeController;
@@ -25,6 +26,8 @@ $router->map( 'POST', '/project/store', [ProjectController::class, 'store'], 'pr
 $router->map( 'GET', '/project/index', [ProjectController::class, 'index'], 'project.index' );
 $router->map( 'GET', '/project/[i:id]/edit', [ProjectController::class, 'edit'], 'project.edit' );
 $router->map( 'POST', '/project/[i:id]/update', [ProjectController::class, 'update'], 'project.update' );
+$router->map( 'GET', '/image/[i:id]/delete', [ImageController::class, 'delete'], 'image.delete' );
+$router->map( 'GET', '/project/[i:id]/delete', [ProjectController::class, 'delete'], 'project.delete' );
 
 $match = $router->match();
 

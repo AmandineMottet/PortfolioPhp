@@ -3,6 +3,16 @@
 @import "fontSize";
 @import "titleBackground";
 
+.img-wrapper{
+  position: relative;
+}
+
+.btn-image{
+  position: absolute;
+  top: 5px;
+  right:5px;
+}
+
 nav {
   margin-top: 30px;
 
@@ -36,7 +46,7 @@ nav {
   }
 }
 
-img {
+.imgAbsolute {
   position: absolute;
   right: 10px;
 }
@@ -66,8 +76,8 @@ body {
     }
   }
 
-  .container-fluid {
-    padding: 0 200px !important;
+  .containerPadding {
+    padding: 0 100px !important;
   }
 }
 
@@ -80,3 +90,4 @@ footer{
     }
   }
 }
+

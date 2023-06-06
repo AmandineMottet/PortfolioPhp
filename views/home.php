@@ -1,7 +1,7 @@
 <div class="backgroundBox">
     <div class="whiteRound"></div>
 </div>
-<div class="container-fluid">
+<div class="container containerPadding">
     <div class="row">
         <div class="col-xl-4 d-flex flex-column align-items-center">
             <div>
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-xl-8">
-            <img width="1100px" src="/images/avatar.png" alt="Avatar">
+            <img class="imgAbsolute" width="1100px" src="/images/avatar.png" alt="Avatar">
         </div>
     </div>
 </div>

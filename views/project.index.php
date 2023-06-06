@@ -33,6 +33,10 @@
                         <a class="btn btn-sm btn-primary" href="/project/<?= $project->id ?>/edit">
                             <i class="fa fa-edit me-2"></i> Modifier
                         </a>
+                        <br>
+                        <a class="btn btn-sm btn-danger mt-1" href="/project/<?= $project->id ?>/edit">
+                            <i class="fa-solid fa-trash"></i> Supprimer
+                        </a>
                     </td>
                 </tr>
                 <?php endforeach; ?>
