@@ -99,3 +99,9 @@ footer{
   padding-right: 200px!important;
 }
 
+.soonToBe:after{
+  content:'Thiaumont, Belgique';
+}
+.soonToBe:hover:after{
+  content:'Hachy, Belgique'
+}

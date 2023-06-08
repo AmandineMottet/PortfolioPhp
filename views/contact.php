@@ -11,6 +11,7 @@
         <div class="blueBoxBigger">
             <p class="titleSmallerSize"><i class="fa-solid fa-at"></i> mot.amandine@outlook.fr</p>
             <p class="titleSmallerSize"><i class="fa-solid fa-mobile-screen"></i> +32 470 28 98 74</p>
+            <p class="titleSmallerSize"><i class="fa-solid fa-house"></i> <span class="soonToBe"></span></p>
         </div>
     </div>
     <div class="col-xl-8">
