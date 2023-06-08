@@ -15,9 +15,9 @@
             <p class="titleBackgroundText">Changing world</p>
         </div>
     </div>
-    <div class="row">
+    <div class="d-flex flex-row justify-content-evenly">
         <!-- Studies -->
-        <div class="col-6">
+        <div>
             <p class="titleSmallSize blueBox mt-5 ms-5 mb-5"><i class="fa-solid fa-school pe-3"></i> Studies</p>
             <div class="design-section">
                 <div class="timeline">
@@ -26,9 +26,9 @@
                     <div class="timeline-middle">
                         <div class="timeline-circle"></div>
                     </div>
-                    <div class="timeline-component timeline-content">
-                        <h3>2009 - 2015</h3>
-                        <p>CESS - Secondary school at Saint-Benoit in Habay</p>
+                    <div class="timeline-component timeline-content" id="timelineNow">
+                        <h3>2022 - nowadays</h3>
+                        <p>Studying in WebDesign UI/UX at the IEPSA in Arlon</p>
                     </div>
                     <div class="timeline-component timeline-content">
                         <h3>2016 - 2019</h3>
@@ -46,15 +46,15 @@
                     <div class="timeline-middle">
                         <div class="timeline-circle"></div>
                     </div>
-                    <div class="timeline-component timeline-content" id="timelineNow">
-                        <h3>2022 - nowadays</h3>
-                        <p>Studying in WebDesign UI/UX at the IEPSA in Arlon</p>
+                    <div class="timeline-component timeline-content" >
+                        <h3>2009 - 2015</h3>
+                        <p>CESS - Secondary school at Saint-Benoit in Habay</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Lanques -->
-        <div class="col-6">
+        <div>
             <p class="titleSmallSize mt-5 pinkBox mt-5 ms-5">Skills</p>
             <p class="textFontSize titleBackgroundBlueSmaller">Languages</p>
             <div class="d-flex flex-column">
@@ -148,67 +148,91 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-        <!-- Work -->
-            <div class="col-6">
-                <p class="titleSmallSize blueBox mt-5 ms-5 mb-5"><i class="fa-solid fa-briefcase fa-l pe-2"></i> Work
-                </p>
-                <div class="design-section">
-                    <div class="timeline">
-                        <div class="timeline-empty">
-                        </div>
-                        <div class="timeline-middle">
-                            <div class="timeline-circle"></div>
-                        </div>
-                        <div class="timeline-component timeline-content">
-                            <h3>2011 - 2018</h3>
-                            <p>Regular student work as an animator durant school holidays</p>
-                        </div>
-                        <div class="timeline-component timeline-content">
-                            <h3>2018 - 2019</h3>
-                            <p>Internship then regular worker as a social assistant in a CPAS</p>
-                        </div>
-                        <div class="timeline-middle">
-                            <div class="timeline-circle"></div>
-                        </div>
-                        <div class="timeline-empty">
-                        </div>
+    </div>
 
-                        <div class="timeline-empty">
-                        </div>
+    <!-- Work -->
+    <div class="d-flex flex-row justify-content-evenly">
+        <div>
+            <p class="titleSmallSize blueBox mt-5 ms-5 mb-5"><i class="fa-solid fa-briefcase fa-l pe-2"></i> Work
+            </p>
+            <div class="design-section">
+                <div class="timeline">
+                    <div class="timeline-empty">
+                    </div>
+                    <div class="timeline-middle">
+                        <div class="timeline-circle"></div>
+                    </div>
+                    <div class="timeline-component timeline-content">
+                        <h3>2019 - nowdays</h3>
+                        <p>CDD then CDI as a "Conseillère mutualiste" in a belgian mutuality</p>
+                    </div>
+                    <div class="timeline-component timeline-content">
+                        <h3>2018 - 2019</h3>
+                        <p>Internship then regular worker as a social assistant in a CPAS</p>
+                    </div>
+                    <div class="timeline-middle">
+                        <div class="timeline-circle"></div>
+                    </div>
+                    <div class="timeline-empty">
+                    </div>
 
-                        <div class="timeline-middle">
-                            <div class="timeline-circle"></div>
-                        </div>
-                        <div class="timeline-component timeline-content">
-                            <h3>2019 - nowdays</h3>
-                            <p>CDD then CDI as a "Conseillère mutualiste" in a belgian mutuality</p>
-                        </div>
+                    <div class="timeline-empty">
+                    </div>
+
+                    <div class="timeline-middle">
+                        <div class="timeline-circle"></div>
+                    </div>
+                    <div class="timeline-component timeline-content">
+                        <h3>2011 - 2018</h3>
+                        <p>Regular student work as an animator durant school holidays</p>
                     </div>
                 </div>
             </div>
-            <!-- Hobby -->
-            <div class="col-6">
-                <p class="titleSmallSize pinkBox mt-5 ms-5 mb-5">Hobby</p>
-                <table>
-                    <tr>
-                        <td class="titleSmallerSize"><i class="fa-solid fa-gamepad fa-xl pe-3"></i></td>
-                        <td class="titleSmallerSize">Video Games</td>
-                    </tr>
-                    <tr>
-                        <td class="titleSmallerSize"><i class="fa-solid fa-camera fa-xl pe-3"></i></td>
-                        <td>
-                            <a href="https://luamphotographie.be/" class="link-secondary link-opacity-25-hover">Luam Photographie</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="titleSmallerSize"><i class="fa-solid fa-tools fa-xl pe-3"></i></td>
-                        <td class="titleSmallerSize">Handiwork - DIY</td>
-                    </tr>
-                </table>
+        </div>
+        <!-- Hobby -->
+
+        <div>
+            <p class="titleSmallSize pinkBox mt-5 ms-5 mb-5">Hobby</p>
+            <div class="d-flex flex-column justify-content-center align-content-start">
+                <div class="d-flex align-content-center">
+                    <div class="">
+                        <div class="titleSmallerSize"><i class="fa-solid fa-gamepad fa-xl pe-3"></i></div>
+                        <div class="titleSmallerSize">Video Games</div>
+                    </div>
+                    <div class="imageWow"></div>
+                </div>
+                <div>
+                    <div class="titleSmallerSize"><i class="fa-solid fa-camera fa-xl pe-3"></i></div>
+                    <div>
+                        <a href="https://luamphotographie.be/" class="link-secondary link-opacity-25-hover">Luam
+                            Photographie</a>
+                    </div>
+
+                </div>
+                <div class="">
+                    <div class="titleSmallerSize"><i class="fa-solid fa-paw"></i> Animals</div>
+                    <div class="imageCat"></div>
+                </div>
             </div>
+
+
+            <table>
+                <tr>
+
+                </tr>
+                <tr>
+                    <td class="titleSmallerSize"></td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+
+                </tr>
+            </table>
         </div>
     </div>
+</div>
 
 </body>
 </html>

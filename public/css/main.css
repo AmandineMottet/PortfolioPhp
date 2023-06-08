@@ -238,6 +238,10 @@
   background-color: #7c5161 !important;
 }
 
+.container {
+  margin-left: 200px !important;
+}
+
 .img-wrapper {
   position: relative;
 }
@@ -300,9 +304,6 @@ body .backgroundBox .whiteRound {
   top: 250px;
   right: 200px;
 }
-body .containerPadding {
-  padding: 0 100px !important;
-}
 
 footer {
   background-color: #212529;
@@ -322,6 +323,24 @@ footer div p {
 
 .soonToBe:hover:after {
   content: "Hachy, Belgique";
+}
+
+.progress {
+  min-width: 500px;
+}
+
+.imageWow {
+  background: url("../images/imagesprojet/wow.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.imageCat {
+  background: url("../images/imagesprojet/cat2.png") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

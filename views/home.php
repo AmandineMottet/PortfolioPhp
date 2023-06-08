@@ -1,9 +1,9 @@
 <div class="backgroundBox">
     <div class="whiteRound"></div>
 </div>
-<div class="container containerPadding">
+<div class="container">
     <div class="row">
-        <div class="col-xl-4 d-flex flex-column align-items-center">
+        <div class="col-5 d-flex flex-column align-items-start">
             <div>
                 <p class="titleBigSize mt-xl-5">Hello, I'm</p>
                 <p class="titleBigSize mb-xl-5">Amandine</p>
@@ -14,7 +14,7 @@
                 <p class="textFontSize mb-5">I'm eager to learn</p>
             </div>
         </div>
-        <div class="col-xl-8">
+        <div class="col-7">
             <img class="imgAbsolute" width="1100px" src="/images/imagesprojet/avatar.png" alt="Avatar">
         </div>
     </div>

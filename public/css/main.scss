@@ -7,6 +7,11 @@
 @import "table";
 @import "timeline";
 
+
+.container{
+  margin-left:200px!important;
+}
+
 .img-wrapper{
   position: relative;
 }
@@ -79,10 +84,6 @@ body {
       right: 200px;
     }
   }
-
-  .containerPadding {
-    padding: 0 100px !important;
-  }
 }
 
 footer{
@@ -104,4 +105,22 @@ footer{
 }
 .soonToBe:hover:after{
   content:'Hachy, Belgique'
+}
+
+.progress{
+  min-width: 500px;
+}
+
+.imageWow{
+  background: url("../images/imagesprojet/wow.jpg") no-repeat center;
+  width: 200px;
+  height:200px;
+  border-radius: 20px;
+}
+
+.imageCat{
+  background: url("../images/imagesprojet/cat2.png") no-repeat center;
+  width: 200px;
+  height:200px;
+  border-radius: 20px;
 }
