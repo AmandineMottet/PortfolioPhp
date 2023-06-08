@@ -102,15 +102,17 @@ class ProjectController
 
     public function delete($id)
     {
-        $prject = Project::find($id);
-        $projectId = $projectId->project_id;
+        $project = Project::find($id);
+        $image = Image::find($id);
+        $projectId = $image->project_id;
         if(file_exists($_SERVER['DOCUMENT_ROOT'] . $image->path)){
             unlink($_SERVER['DOCUMENT_ROOT'] . $image->path);
         }
+        Project::delete($id);
         Image::delete($id);
 
-        Redirect::to('/project/'.$projectId.'/edit',[
-            'success' => 'Image supprimée avec succes !'
+        Redirect::to('/project/index',[
+            'success' => 'Projet supprimé avec succes !'
         ]);
     }
 }

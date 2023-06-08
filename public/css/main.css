@@ -42,6 +42,10 @@
   font-weight: bold;
 }
 
+.titleSmallerSize {
+  font-size: 20px;
+}
+
 .textFontSize {
   font-size: 30px;
 }
@@ -70,9 +74,80 @@
   padding-left: 0;
 }
 
+.titleBackgroundBlueSmaller {
+  background-color: #a5bfb5 !important;
+  min-height: 50px;
+  width: 250px;
+  border-bottom-right-radius: 60px;
+  border-top-right-radius: 60px;
+  margin-left: -15px;
+  padding-left: 20px;
+  padding-top: 3px;
+  color: white;
+  font-size: 25px;
+}
+
 .titleBackgroundText {
   font-size: 30px;
   color: white;
+}
+
+.btn-primary {
+  background-color: #72abbe;
+  border: none;
+}
+.btn-primary:hover {
+  background: #308296;
+}
+
+.btn-danger {
+  background-color: #8f3535;
+  border: none;
+}
+.btn-danger:hover {
+  background: #4f0d0d;
+}
+
+.btnCreate {
+  background-color: #bfa5af;
+  border: none;
+  font-size: 20px;
+  border-radius: 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.btnCreate:hover {
+  background-color: #916276;
+}
+
+.rounded-pill {
+  font-size: 20px;
+}
+
+.categoryBack {
+  background-color: #6fa691;
+}
+
+.categoryFront {
+  background-color: #756fa6;
+}
+
+.categoryCms {
+  background-color: #a66f84;
+}
+
+.categoryDesign {
+  background-color: #a0a66f;
+}
+
+.tableTitleBackground {
+  background-color: #cde0d6;
+}
+
+.tableTitle {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .img-wrapper {
@@ -147,6 +222,10 @@ footer {
 }
 footer div p {
   color: white;
+}
+
+.marginRight {
+  padding-right: 200px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

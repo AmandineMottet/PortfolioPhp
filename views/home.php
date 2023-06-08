@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-xl-8">
-            <img class="imgAbsolute" width="1100px" src="/images/avatar.png" alt="Avatar">
+            <img class="imgAbsolute" width="1100px" src="/images/imagesprojet/avatar.png" alt="Avatar">
         </div>
     </div>
 </div>

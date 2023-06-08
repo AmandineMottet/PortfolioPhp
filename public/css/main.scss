@@ -2,6 +2,9 @@
 @import "blueBox";
 @import "fontSize";
 @import "titleBackground";
+@import "buttons";
+@import "category";
+@import "table";
 
 .img-wrapper{
   position: relative;
@@ -89,5 +92,9 @@ footer{
       color:white;
     }
   }
+}
+
+.marginRight{
+  padding-right: 200px!important;
 }
 

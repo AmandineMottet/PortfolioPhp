@@ -1,0 +1,31 @@
+
+
+.btn-primary{
+  background-color: #72abbe;
+  border: none;
+  &:hover{
+    background: #308296;
+  }
+}
+
+.btn-danger{
+  background-color: #8f3535;
+  border: none;
+  &:hover{
+    background: #4f0d0d;
+  }
+}
+
+.btnCreate{
+  background-color:#bfa5af;
+  border:none;
+  font-size: 20px;
+  border-radius: 15px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  &:hover{
+    background-color: #916276;
+  }
+}
