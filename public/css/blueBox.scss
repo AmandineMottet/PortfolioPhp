@@ -11,3 +11,17 @@
   font-size: 25px;
   border-radius: 20px;
 }
+
+.blueBoxBigger{
+  background: #a5bfb5;
+  min-height: 150px;
+  width:300px;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 20px 0 0 20px;
+}

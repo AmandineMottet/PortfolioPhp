@@ -22,6 +22,20 @@
   border-radius: 20px;
 }
 
+.blueBoxBigger {
+  background: #a5bfb5;
+  min-height: 150px;
+  width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 20px 0 0 20px;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -54,6 +68,11 @@
   font-size: 15px;
 }
 
+.contactTitle {
+  font-size: 50px;
+  font-family: "blithe", sans-serif;
+}
+
 .titleBackgroundBlue {
   background-color: #a5bfb5 !important;
   min-height: 200px;
@@ -78,11 +97,10 @@
   background-color: #a5bfb5 !important;
   min-height: 50px;
   width: 250px;
-  border-bottom-right-radius: 60px;
-  border-top-right-radius: 60px;
+  border-radius: 60px;
   margin-left: -15px;
-  padding-left: 20px;
-  padding-top: 3px;
+  padding-left: 30px;
+  padding-top: 6px;
   color: white;
   font-size: 25px;
 }
@@ -148,6 +166,76 @@
 .tableTitle {
   font-size: 25px;
   font-weight: bold;
+}
+
+/*
+    First timeline
+ */
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  min-height: 600px;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #bfa5af;
+  box-shadow: 5px 5px 10px #5b5b5b;
+  border-radius: 5px;
+  color: white;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+}
+
+.timeline-component {
+  margin: 0 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #cbdad4, #74968b);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #cbdad4, #74968b);
+    transform: translateX(-50%);
+  }
+}
+#timelineNow {
+  background-color: #7c5161 !important;
 }
 
 .img-wrapper {

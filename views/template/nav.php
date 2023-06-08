@@ -21,7 +21,7 @@
             </ul>
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/connexion">Get in touch</a>
+                    <a class="nav-link" href="/contact">Get in touch</a>
                 </li>
             </ul>
         </div>

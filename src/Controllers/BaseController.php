@@ -13,4 +13,11 @@ class BaseController
 
         View::render('cv');
     }
+
+    public function contact(): void
+    {
+        DB::getInstance();
+
+        View::render('contact');
+    }
 }

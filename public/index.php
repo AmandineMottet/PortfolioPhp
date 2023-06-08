@@ -20,6 +20,7 @@ $router->map( 'GET', '/users', [UserController::class, 'index'], 'user.index' );
 $router->map( 'GET', '/users/[i:id]/edit', [UserController::class, 'edit'], 'user.edit' );
 
 $router->map( 'GET', '/cv', [BaseController::class, 'cv'], 'cv' );
+$router->map( 'GET', '/contact', [BaseController::class, 'contact'], 'contact' );
 
 $router->map( 'GET', '/project/create', [ProjectController::class, 'create'], 'project.create' );
 $router->map( 'POST', '/project/store', [ProjectController::class, 'store'], 'project.store' );
