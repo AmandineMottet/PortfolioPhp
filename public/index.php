@@ -11,7 +11,7 @@ use App\Utils\View;
 
 
 require '../vendor/autoload.php';
-
+\Carbon\Carbon::setLocale('eng');
 
 $router = new AltoRouter();
 
@@ -26,6 +26,7 @@ $router->map( 'GET', '/project/create', [ProjectController::class, 'create'], 'p
 $router->map( 'POST', '/project/store', [ProjectController::class, 'store'], 'project.store' );
 $router->map( 'GET', '/project/index', [ProjectController::class, 'index'], 'project.index' );
 $router->map( 'GET', '/project/[i:id]/edit', [ProjectController::class, 'edit'], 'project.edit' );
+$router->map( 'GET', '/project/[i:id]/view', [ProjectController::class, 'view'], 'project.view' );
 $router->map( 'POST', '/project/[i:id]/update', [ProjectController::class, 'update'], 'project.update' );
 $router->map( 'GET', '/image/[i:id]/delete', [ImageController::class, 'delete'], 'image.delete' );
 $router->map( 'GET', '/project/[i:id]/delete', [ProjectController::class, 'delete'], 'project.delete' );

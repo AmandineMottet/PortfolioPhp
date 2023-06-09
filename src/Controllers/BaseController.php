@@ -9,15 +9,20 @@ class BaseController
 {
     public function cv(): void
     {
-       DB::getInstance();
-
-        View::render('cv');
+        $title = 'cv';
+        DB::getInstance();
+        View::render('cv', [
+            'title' => $title
+        ]);
     }
 
     public function contact(): void
     {
+        $title = 'contact';
         DB::getInstance();
 
-        View::render('contact');
+        View::render('contact',[
+            'title' => $title
+        ]);
     }
 }

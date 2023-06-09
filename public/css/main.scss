@@ -10,26 +10,28 @@
 @import "animation";
 
 
-body{
+body {
   background-color: $color-body;
 }
 
-.container{
-  margin-left:200px!important;
+.container {
+  margin-left: 200px !important;
+  min-height: 80vh;
 }
 
-.img-wrapper{
+.img-wrapper {
   position: relative;
 }
 
-.btn-image{
+.btn-image {
   position: absolute;
   top: 5px;
-  right:5px;
+  right: 5px;
 }
 
 nav {
   margin-top: 30px;
+  padding: 0 80px;
 
   .navGeneral {
     display: flex;
@@ -47,7 +49,6 @@ nav {
   a {
     color: white !important;
   }
-
 
 
   .currentLink {
@@ -92,45 +93,45 @@ body {
   }
 }
 
-footer{
+footer {
   background-color: #212529;
   min-height: 100px;
-  div{
-    p{
-      color:white;
-    }
+
+  p {
+    color: white;
   }
 }
 
-.marginRight{
-  padding-right: 200px!important;
+.marginRight {
+  padding-right: 200px !important;
 }
 
-.soonToBe:after{
-  content:'Thiaumont, Belgique';
-}
-.soonToBe:hover:after{
-  content:'Hachy, Belgique'
+.soonToBe:after {
+  content: 'Thiaumont, Belgique';
 }
 
-.progress{
+.soonToBe:hover:after {
+  content: 'Hachy, Belgique'
+}
+
+.progress {
   min-width: 500px;
 }
 
-.imageWow{
+.imageWow {
   background: url("../images/imagesprojet/wow.jpg") no-repeat center;
   width: 200px;
-  height:200px;
+  height: 200px;
   border-radius: 20px;
 }
 
-.imageCat{
+.imageCat {
   background: url("../images/imagesprojet/cat2.png") no-repeat center;
   width: 200px;
-  height:200px;
+  height: 200px;
   border-radius: 20px;
 }
 
-.hobby{
+.hobby {
   min-width: 600px;
 }

@@ -4,6 +4,7 @@
   width: 500px;
   border-bottom-right-radius: $radius-xl;
   border-top-right-radius: $radius-xl;
+  box-shadow: $shadow;
 }
 
 
@@ -17,6 +18,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 0;
+  box-shadow: $shadow;
 }
 
 .titleBackgroundBlueSmaller{
@@ -29,12 +31,11 @@
   padding-top: 6px;
   color:white;
   font-size: 25px;
-
+  box-shadow: $shadow;
 }
 
 
 .titleBackgroundText{
   font-size: 30px;
   color:white;
-
 }

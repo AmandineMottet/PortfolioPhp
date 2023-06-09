@@ -21,11 +21,10 @@
                 </tr>
                 </thead>
                 <tbody>
-                <?php \Carbon\Carbon::setLocale('fr'); ?>
                 <?php foreach ($projects as $project):?>
                 <tr>
-                    <td class="fw-bold text-capitalize"><?= $project->title ?></td>
-                    <td>
+                    <td class="fw-bold text-capitalize align-middle"><?= $project->title ?></td>
+                    <td class="align-middle">
                         <?php
                         if ($project->category_id === \App\Enums\Category::FRONT){
                             ?>
@@ -49,15 +48,17 @@
                         }
                         ?>
                     </td>
-                    <td><?= \Carbon\Carbon::parse($project->date)->diffForHumans()  ?></td>
-                    <td>
-                        <a class="btn btn-sm btn-primary" href="/project/<?= $project->id ?>/edit">
-                            <i class="fa fa-edit me-2"></i> Modifier
-                        </a>
-                        <br>
-                        <a class="btn btn-sm btn-danger mt-1" href="/project/<?= $project->id ?>/delete">
-                            <i class="fa-solid fa-trash"></i> Supprimer
-                        </a>
+                    <td class="align-middle"><?= \Carbon\Carbon::parse($project->date)->diffForHumans()  ?></td>
+                    <td class="align-middle">
+                            <a class="btn btn-sm btn-primary" href="/project/<?= $project->id ?>/edit">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                            <a class="btn btn-sm btn-danger" href="/project/<?= $project->id ?>/delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </a>
+                            <a class="btn btn-sm btn-success" href="/project/<?= $project->id ?>/view">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
                     </td>
                 </tr>
                 <?php endforeach; ?>

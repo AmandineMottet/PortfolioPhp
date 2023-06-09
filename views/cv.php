@@ -15,9 +15,9 @@
             <p class="titleBackgroundText">Changing world</p>
         </div>
     </div>
-    <div class="d-flex flex-row justify-content-evenly">
-        <!-- Studies -->
+    <div class="d-flex justify-content-evenly">
         <div>
+            <!-- Studies -->
             <p class="titleSmallSize blueBox mt-5 ms-5 mb-5"><i class="fa-solid fa-school pe-3"></i> Studies</p>
             <div class="design-section">
                 <div class="timeline">
@@ -52,107 +52,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Lanques -->
-        <div>
-            <p class="titleSmallSize mt-5 pinkBox mt-5 "><i class="fa-solid fa-pen me-3"></i> Skills</p>
-            <p class="textFontSize titleBackgroundBlueSmaller"><i class="fa-solid fa-language"></i> Languages</p>
-            <div class="d-flex flex-column">
-                <div class="col-6 ">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize  text-start"
-                             style="width: 100%">French
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 text-start titleSmallerSize"
-                             style="width: 75%">English
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Social -->
-            <p class="textFontSize titleBackgroundBlueSmaller mt-3"><i class="fa-solid fa-heart"></i> Socials</p>
-            <div class="row d-flex flex-column">
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
-                             style="width: 75%">Relational
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
-                             style="width: 85%">Learning abilities
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
-                             style="width: 75%">Autonomy
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Web -->
-            <p class="textFontSize titleBackgroundBlueSmaller mt-3"><i class="fa-solid fa-laptop-code"></i> Web</p>
-            <div class="row d-flex flex-column">
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
-                             style="width: 70%">HTML / CSS
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
-                             style="width: 40%">JS / Vue JS
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
-                             style="width: 30%">PHP
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
-                             style="width: 75%">Photoshop
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
-                         aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
-                             style="width: 85%">Illustrator
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Work -->
-    <div class="d-flex flex-row justify-content-evenly">
-        <div>
+            <!-- Work -->
             <p class="titleSmallSize blueBox mt-5 ms-5 mb-5"><i class="fa-solid fa-briefcase fa-l pe-2"></i> Work
             </p>
             <div class="design-section">
@@ -189,32 +89,133 @@
                 </div>
             </div>
         </div>
-        <!-- Hobby -->
-
-        <div >
-            <p class="titleSmallSize pinkBox mt-5 ms-5 mb-5"><i class="fa-regular fa-face-laugh"></i> Hobby</p>
-            <div class="d-flex flex-column justify-content-center align-content-start">
-                <div class="d-flex align-content-center col-12">
-                    <div class="">
-                        <div class="titleSmallerSize"><i class="fa-solid fa-gamepad fa-xl pe-3"></i></div>
-                        <div class="titleSmallerSize">Video Games</div>
+        <div>
+            <!-- Lanques -->
+            <div>
+                <p class="titleSmallSize mt-5 pinkBox mt-5 "><i class="fa-solid fa-pen me-3"></i> Skills</p>
+                <p class="textFontSize titleBackgroundBlueSmaller"><i class="fa-solid fa-language"></i> Languages</p>
+                <div class="d-flex flex-column">
+                    <div class="col-6 ">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize  text-start"
+                                 style="width: 100%">French
+                            </div>
+                        </div>
                     </div>
-                    <div class="imageWow "></div>
-                </div>
-                <div>
-                    <div class="titleSmallerSize"><i class="fa-solid fa-camera fa-xl pe-3"></i></div>
-                    <div>
-                        <a href="https://luamphotographie.be/" class="link-secondary link-opacity-25-hover">Luam
-                            Photographie</a>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white ps-3 text-start titleSmallerSize"
+                                 style="width: 75%">English
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="">
-                    <div class="titleSmallerSize"><i class="fa-solid fa-paw"></i> Animals</div>
-                    <div class="imageCat"></div>
+                <!-- Social -->
+                <p class="textFontSize titleBackgroundBlueSmaller mt-3"><i class="fa-solid fa-heart"></i> Socials</p>
+                <div class="row d-flex flex-column">
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
+                                 style="width: 75%">Relational
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
+                                 style="width: 85%">Learning abilities
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
+                                 style="width: 75%">Autonomy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web -->
+                <p class="textFontSize titleBackgroundBlueSmaller mt-3"><i class="fa-solid fa-laptop-code"></i> Web</p>
+                <div class="row d-flex flex-column">
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
+                                 style="width: 70%">HTML / CSS
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
+                                 style="width: 40%">JS / Vue JS
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
+                                 style="width: 30%">PHP
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
+                                 style="width: 75%">Photoshop
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                            <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
+                                 style="width: 85%">Illustrator
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hobby -->
+            <div>
+                <p class="titleSmallSize pinkBox mt-5 mb-4"><i class="fa-regular fa-face-laugh"></i> Hobby</p>
+                <div class="d-flex flex-column justify-content-center align-content-start">
+                    <div class="d-flex flex-column align-content-center col-12 my-2">
+                        <div class="titleSmallerSize">
+                            <i class="fa-solid fa-gamepad fa-xl pe-3"></i>
+                            Video Games
+                        </div>
+                        <div class="imageWow "></div>
+                    </div>
+                    <div class="d-flex flex-column align-content-center col-12 my-2">
+                        <div class="titleSmallerSize">
+                            <i class="fa-solid fa-camera fa-xl pe-3"></i>
+                            <a href="https://luamphotographie.be/" class="link-secondary link-opacity-25-hover">Luam
+                                Photographie</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-content-center col-12 my-2">
+                        <div class="titleSmallerSize">
+                            <i class="fa-solid fa-paw fa-xl pe-3"></i>
+                            Pets
+                        </div>
+                        <div class="imageCat"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 </div>
 
 </body>

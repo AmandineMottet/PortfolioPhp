@@ -13,9 +13,10 @@ class ProjectController
 {
     public function create()
     {
-
+        $title = 'projets';
         View::render('project.create', [
-            'categories' => Category::getList()
+            'categories' => Category::getList(),
+            'title' =>$title
         ]);;
     }
 
@@ -38,17 +39,30 @@ class ProjectController
     public function index()
     {
         $projects = Project::all();
-        View::render('project.index', ['projects' => $projects]);
+        $title = 'projets';
+        View::render('project.index', ['projects' => $projects, 'title' =>$title]);
 
+    }
+
+    public function view($id)
+    {
+        $project = Project::find($id);
+        $title = 'projets';
+        View::render('project.view', [
+            'project' => $project,
+            'title' =>$title
+        ]);
     }
 
     public function edit($id)
     {
         $project = Project::find($id);
+        $title = 'projets';
 
         View::render('project.edit', [
             'project' => $project,
-            'categories' => Category::getList()
+            'categories' => Category::getList(),
+            'title' =>$title
         ]);
     }
 

@@ -34,8 +34,10 @@
         <?= $_SESSION['error'] ?>
     </div>
 <?php endif; ?>
+<div class="py-5">
+    <?= $content ?>
+</div>
 
-<?= $content ?>
 <?php require __DIR__ . '/footer.php' ?>
 </body>
 </html>

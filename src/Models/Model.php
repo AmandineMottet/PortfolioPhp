@@ -80,10 +80,13 @@ class Model
         return static::find($id);
     }
 
-    public static function all()
+    public static function all($limit = null)
     {
         $pdo = DB::getInstance();
-        $query = 'select * from '.static::$table.' ORDER BY date';
+        $query = 'select * from '.static::$table.' ORDER BY date DESC';
+        if ($limit) {
+            $query .= " LIMIT $limit";
+        }
         $statement = $pdo->query($query);
         $statement->setFetchMode(PDO::FETCH_CLASS, static::class);
         return $statement->fetchAll();

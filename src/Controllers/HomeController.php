@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Enums\Category;
+use App\Models\Project;
 use App\Utils\View;
 
 class HomeController
@@ -12,9 +14,13 @@ class HomeController
      */
     public function index()
     {
+        $projects = Project::all(3);
         $title = 'home';
-        View::render('home', ['title'=> $title]);
-
-
+        $categories = '';
+        View::render('home', [
+            'title'=> $title,
+            'projects' => $projects,
+            'categories' => Category::getList(),
+            ]);
     }
 }
