@@ -2,8 +2,8 @@
   background-color: #a5bfb5!important;
   min-height: 200px;
   width: 500px;
-  border-bottom-right-radius: 60px;
-  border-top-right-radius: 60px;
+  border-bottom-right-radius: $radius-xl;
+  border-top-right-radius: $radius-xl;
 }
 
 
@@ -11,8 +11,8 @@
   background-color: #a5bfb5!important;
   min-height: 200px;
   width: 700px;
-  border-bottom-right-radius: 60px;
-  border-top-right-radius: 60px;
+  border-bottom-right-radius: $radius-xl;
+  border-top-right-radius: $radius-xl;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
   background-color: #a5bfb5!important;
   min-height: 50px;
   width: 250px;
-  border-radius: 60px;
+  border-radius: $radius-sm;
   margin-left: -15px;
   padding-left: 30px;
   padding-top: 6px;

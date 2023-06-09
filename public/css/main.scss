@@ -1,3 +1,4 @@
+@import "variables";
 @import "pinkBox";
 @import "blueBox";
 @import "fontSize";
@@ -6,7 +7,12 @@
 @import "category";
 @import "table";
 @import "timeline";
+@import "animation";
 
+
+body{
+  background-color: $color-body;
+}
 
 .container{
   margin-left:200px!important;
@@ -123,4 +129,8 @@ footer{
   width: 200px;
   height:200px;
   border-radius: 20px;
+}
+
+.hobby{
+  min-width: 600px;
 }

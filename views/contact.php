@@ -12,6 +12,9 @@
             <p class="titleSmallerSize"><i class="fa-solid fa-at"></i> mot.amandine@outlook.fr</p>
             <p class="titleSmallerSize"><i class="fa-solid fa-mobile-screen"></i> +32 470 28 98 74</p>
             <p class="titleSmallerSize"><i class="fa-solid fa-house"></i> <span class="soonToBe"></span></p>
+            <p class="titleSmallerSize"><i class="fa-brands fa-linkedin"></i>
+                <a class="link-light" href="https://www.linkedin.com/in/amandine-mottet-865863228/"> Mon profil Linkedin</a>
+            </p>
         </div>
     </div>
     <div class="col-xl-8">

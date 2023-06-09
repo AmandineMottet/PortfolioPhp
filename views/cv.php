@@ -28,7 +28,7 @@
                     </div>
                     <div class="timeline-component timeline-content" id="timelineNow">
                         <h3>2022 - nowadays</h3>
-                        <p>Studying in WebDesign UI/UX at the IEPSA in Arlon</p>
+                        <p>Studying in WebDesign UI/UX at the EAFC in Arlon</p>
                     </div>
                     <div class="timeline-component timeline-content">
                         <h3>2016 - 2019</h3>
@@ -46,7 +46,7 @@
                     <div class="timeline-middle">
                         <div class="timeline-circle"></div>
                     </div>
-                    <div class="timeline-component timeline-content" >
+                    <div class="timeline-component timeline-content">
                         <h3>2009 - 2015</h3>
                         <p>CESS - Secondary school at Saint-Benoit in Habay</p>
                     </div>
@@ -55,13 +55,13 @@
         </div>
         <!-- Lanques -->
         <div>
-            <p class="titleSmallSize mt-5 pinkBox mt-5 ms-5">Skills</p>
-            <p class="textFontSize titleBackgroundBlueSmaller">Languages</p>
+            <p class="titleSmallSize mt-5 pinkBox mt-5 "><i class="fa-solid fa-pen me-3"></i> Skills</p>
+            <p class="textFontSize titleBackgroundBlueSmaller"><i class="fa-solid fa-language"></i> Languages</p>
             <div class="d-flex flex-column">
                 <div class="col-6 ">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize "
+                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize  text-start"
                              style="width: 100%">French
                         </div>
                     </div>
@@ -69,19 +69,19 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 text-start titleSmallerSize"
                              style="width: 75%">English
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Social -->
-            <p class="textFontSize titleBackgroundBlueSmaller mt-3">Socials</p>
+            <p class="textFontSize titleBackgroundBlueSmaller mt-3"><i class="fa-solid fa-heart"></i> Socials</p>
             <div class="row d-flex flex-column">
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
                              style="width: 75%">Relational
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
                              style="width: 85%">Learning abilities
                         </div>
                     </div>
@@ -97,19 +97,19 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white ps-3 titleSmallerSize text-start"
                              style="width: 75%">Autonomy
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Web -->
-            <p class="textFontSize titleBackgroundBlueSmaller mt-3">Web</p>
+            <p class="textFontSize titleBackgroundBlueSmaller mt-3"><i class="fa-solid fa-laptop-code"></i> Web</p>
             <div class="row d-flex flex-column">
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
                              style="width: 70%">HTML / CSS
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
                              style="width: 40%">JS / Vue JS
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
                              style="width: 30%">PHP
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
                              style="width: 75%">Photoshop
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                 <div class="col-6">
                     <div class="progress mb-3" role="progressbar" aria-label="Basic example" aria-valuenow="100"
                          aria-valuemin="0" aria-valuemax="100" style="height: 25px">
-                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize"
+                        <div class="progress-bar categoryCms overflow-visible text-white text-lg-start ps-3 titleSmallerSize text-start"
                              style="width: 85%">Illustrator
                         </div>
                     </div>
@@ -191,15 +191,15 @@
         </div>
         <!-- Hobby -->
 
-        <div>
-            <p class="titleSmallSize pinkBox mt-5 ms-5 mb-5">Hobby</p>
+        <div >
+            <p class="titleSmallSize pinkBox mt-5 ms-5 mb-5"><i class="fa-regular fa-face-laugh"></i> Hobby</p>
             <div class="d-flex flex-column justify-content-center align-content-start">
-                <div class="d-flex align-content-center">
+                <div class="d-flex align-content-center col-12">
                     <div class="">
                         <div class="titleSmallerSize"><i class="fa-solid fa-gamepad fa-xl pe-3"></i></div>
                         <div class="titleSmallerSize">Video Games</div>
                     </div>
-                    <div class="imageWow"></div>
+                    <div class="imageWow "></div>
                 </div>
                 <div>
                     <div class="titleSmallerSize"><i class="fa-solid fa-camera fa-xl pe-3"></i></div>
@@ -207,29 +207,12 @@
                         <a href="https://luamphotographie.be/" class="link-secondary link-opacity-25-hover">Luam
                             Photographie</a>
                     </div>
-
                 </div>
                 <div class="">
                     <div class="titleSmallerSize"><i class="fa-solid fa-paw"></i> Animals</div>
                     <div class="imageCat"></div>
                 </div>
             </div>
-
-
-            <table>
-                <tr>
-
-                </tr>
-                <tr>
-                    <td class="titleSmallerSize"></td>
-                    <td>
-
-                    </td>
-                </tr>
-                <tr>
-
-                </tr>
-            </table>
         </div>
     </div>
 </div>

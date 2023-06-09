@@ -10,7 +10,7 @@
             </div>
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <p class="textFontSize">New to the world of</p>
-                <p class="titleSmallSize pinkBox">Webdesign</p>
+                <p class="titleSmallSize pinkBoxAnimated">Webdesign</p>
                 <p class="textFontSize mb-5">I'm eager to learn</p>
             </div>
         </div>

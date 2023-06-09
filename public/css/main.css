@@ -1,3 +1,6 @@
+/***** RADIUS *****/
+/***** COLORS *****/
+/***** FONT SIZE *****/
 .pinkBox {
   background: #bfa5af;
   min-height: 80px;
@@ -8,6 +11,24 @@
   align-items: center;
   font-size: 25px;
   border-radius: 20px;
+}
+
+.pinkBoxAnimated {
+  background: #bfa5af;
+  min-height: 80px;
+  width: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 20px;
+  animation-name: pinkBox;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .blueBox {
@@ -57,7 +78,7 @@
 }
 
 .titleSmallerSize {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .textFontSize {
@@ -97,7 +118,7 @@
   background-color: #a5bfb5 !important;
   min-height: 50px;
   width: 250px;
-  border-radius: 60px;
+  border-radius: 20px;
   margin-left: -15px;
   padding-left: 30px;
   padding-top: 6px;
@@ -238,6 +259,18 @@
   background-color: #7c5161 !important;
 }
 
+@keyframes pinkBox {
+  from {
+    background-color: #bfa5af;
+  }
+  to {
+    background-color: #a66f84;
+  }
+}
+body {
+  background-color: #f1efef;
+}
+
 .container {
   margin-left: 200px !important;
 }
@@ -341,6 +374,10 @@ footer div p {
   width: 200px;
   height: 200px;
   border-radius: 20px;
+}
+
+.hobby {
+  min-width: 600px;
 }
 
 /*# sourceMappingURL=main.css.map */
