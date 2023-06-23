@@ -93,6 +93,10 @@
   font-size: 15px;
 }
 
+.boldFont {
+  font-weight: bold;
+}
+
 .contactTitle {
   font-size: 50px;
   font-family: "blithe", sans-serif;
@@ -168,6 +172,10 @@
 }
 .btnCreate:hover {
   background-color: #916276;
+}
+
+.btnSimple {
+  text-decoration: none;
 }
 
 .rounded-pill {

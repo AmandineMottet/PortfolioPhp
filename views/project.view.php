@@ -36,8 +36,8 @@
         <?php endforeach; ?>
     </div>
     <div class="my-4">
-        <button class="btn btn-primary"><a class="link-light" href="/">Home</a> </button>
-        <button class="btn btn-primary"><a class="link-light" href="/project/index">List of projects</a> </button>
+        <button class="btn btn-primary"><a class="link-light btnSimple" href="/">Home</a> </button>
+        <button class="btn btn-primary"><a class="link-light btnSimple" href="/project/index">List of projects</a> </button>
 
     </div>
 

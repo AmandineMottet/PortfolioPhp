@@ -2,8 +2,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 d-flex justify-content-between mt-3">
-            <h4>List of projects</h4>
+        <div class="col-md-12 d-flex justify-content-between mt-3 ">
+            <h4 class="titleBackgroundBlueSmaller pt-2 ms-1">List of projects</h4>
             <a href="/project/create" class="btn btn-dark btn-sm btnCreate">
                 <i class="fa fa-plus me-2"></i>
                 New project</a>
@@ -17,7 +17,7 @@
                     <td class="tableTitle">Title</td>
                     <td class="tableTitle">Category</td>
                     <td class="tableTitle">Date</td>
-                    <td class="tableTitle">Actions</td>
+                    <td class="tableTitle">Action</td>
                 </tr>
                 </thead>
                 <tbody>

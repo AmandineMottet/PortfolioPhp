@@ -31,13 +31,13 @@ class Category
     {
         switch ($id){
             case static::FRONT:
-                return'Projets Frontend';
+                return'Frontend';
             case static::BACKEND:
-                return'Projets Backend';
+                return'Backend';
             case static::CMS:
-                return'Projets CMS';
+                return'CMS';
             case static::DESIGN:
-                return'Projets Design';
+                return'Design';
         }
     }
 }

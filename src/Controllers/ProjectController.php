@@ -22,6 +22,11 @@ class ProjectController
 
     public function store()
     {
+        if($_POST['category_id'] === ""){
+            Redirect::to('/project/create', [
+                'error' => 'Error',
+            ]);
+        }
         $project = Project::create([
             'title' => $_POST['title'] ?? null,
             'category_id' => $_POST['category_id'] ?? null,
@@ -56,6 +61,7 @@ class ProjectController
 
     public function edit($id)
     {
+
         $project = Project::find($id);
         $title = 'projets';
 
