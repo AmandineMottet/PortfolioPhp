@@ -317,9 +317,11 @@ nav .currentLink {
   background-color: #bfa5af;
   font-size: 25px;
   min-height: 160%;
+  min-width: 95px;
   font-weight: bold;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .imgAbsolute {

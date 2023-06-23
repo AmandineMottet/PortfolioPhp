@@ -3,10 +3,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-between mt-3">
-            <h4>Liste des projets</h4>
+            <h4>List of projects</h4>
             <a href="/project/create" class="btn btn-dark btn-sm btnCreate">
                 <i class="fa fa-plus me-2"></i>
-                Nouveau projet</a>
+                New project</a>
         </div>
     </div>
     <div class="row mt-3">
@@ -14,8 +14,8 @@
             <table class="table table-striped table-bordered">
                 <thead>
                 <tr class="tableTitleBackground">
-                    <td class="tableTitle">Titre</td>
-                    <td class="tableTitle">Catégorie</td>
+                    <td class="tableTitle">Title</td>
+                    <td class="tableTitle">Category</td>
                     <td class="tableTitle">Date</td>
                     <td class="tableTitle">Actions</td>
                 </tr>
