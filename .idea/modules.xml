@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/todolistphp.iml" filepath="$PROJECT_DIR$/.idea/todolistphp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PortfolioPhp.iml" filepath="$PROJECT_DIR$/.idea/PortfolioPhp.iml" />
     </modules>
   </component>
 </project>
